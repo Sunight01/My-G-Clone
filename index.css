@@ -9,7 +9,7 @@ body {
 
 ul {
     display: flex;
-    list-style: none;
+    list-style: none; /* Esto sirve para poder quitar el punto o signo de lista.*/
     justify-content: flex-end;
     align-items: center;
     padding: 4px 10px 10px 10px;
@@ -26,8 +26,8 @@ ul {
 }
 
 .g__grid {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 
 }
 
@@ -81,10 +81,6 @@ section {
     > i {
         color: rgb(118, 118, 118);
     }
-
-    /* > img {
-        height: 100%;
-    } */
 }
 
 .g__microphone {
@@ -108,5 +104,32 @@ section {
     width: 450px;
     color: white;
     border: 0;
+    font-size: 14px;
+}
+
+.g__buttons {
+    color: white;
+    width: 580px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.g__button__1 {
+    background: #303134;
+    padding: 10px 15px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.g__button__2 {
+    background: #303134;
+    padding: 10px 15px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
     font-size: 14px;
 }

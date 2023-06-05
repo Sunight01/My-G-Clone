@@ -153,6 +153,11 @@ footer {
     flex-direction: column;
     background: black;
     justify-content: flex-start;
+
+    width: 100%;
+    position: absolute; /*Hacemos que se ubique con relacion a su contenedor.*/
+    bottom: 0; /*Con esto nos aseguramos que estará abajo del todo.*/
+
 }
 
 footer .country {
